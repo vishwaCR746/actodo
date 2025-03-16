@@ -12,7 +12,7 @@ function Landing() {
     
   return (
     <div className='bg-[#ea21c9b3] p-16 flex items-center justify-center min-h-screen'>
-      <div className='bg-[#e6b9e3] p-10 border rounded-md    w-full sm:w-2/3 md:w-1/2 lg:w-1/2  '>
+      <div className='bg-[#e6b9e3] p-10 border rounded-md  '>
         <Header username={data.state.user} />
 
         <div className='flex justify-between gap-7 my-5 flex-wrap'>
