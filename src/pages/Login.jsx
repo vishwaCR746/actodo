@@ -60,7 +60,7 @@ function Login(props) {
           <button className="bg-[#a109d4] w-24 p-1 rounded-md" onClick={checkuser}>
             Login
           </button>
-          <p>Don't have an account? <Link to={"/Signup"} className='underline'>Sign Up</Link> </p>
+          <p>Don't have an account? <Link to={"/Signup"} className='underline text-blue-800 '>Sign Up</Link> </p>
 
 
         </div>
