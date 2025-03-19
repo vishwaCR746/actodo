@@ -1,9 +1,9 @@
 function Todoitem(props) {
-    const { activityArr, setActivityArr,  } = props;
+    const { activityArr, setActivityArr, } = props;
     
 
     function handleDelete(deleteid) {
-        const temparr = activityArr.filter(item => item.id !== deleteid);
+        const temparr = activityArr.filter(item => item.id === deleteid);
         setActivityArr(temparr);
     }
 

@@ -38,8 +38,8 @@ function Login(props) {
 
   }
   return (
-    <div className="bg-[#d37de07f] p-10 flex items-center justify-center min-h-screen  ">
-      <div className="bg-[#efefefb5] p-10 border  w-full sm:w-2/3 md:w-1/3 lg:w-1/4 rounded shadow">
+    <div className="bg-black p-10 flex items-center justify-center min-h-screen  ">
+      <div className="bg-[#ffffff] p-10 border  w-full sm:w-2/3 md:w-1/3 lg:w-1/4 rounded shadow">
         <h1 className="text-5x1 font-bold">HEY Hi</h1>
         {ruser ? <p>I help you manage your activites after you login :) </p> : <p className='text-red-500'>Please Sign Up Before you Login</p>}
 
